@@ -1,0 +1,93 @@
+#o-multi-product .carousel-inner div.item{height: 400px;} 
+#o-multi-product .carousel-inner div.item img{max-height: 100%;} 
+#o-multi-product .carousel-control{background-image: none !important;} 
+#o-multi-product .carousel-indicators{
+background-color: transparent;
+margin: 0 auto;
+overflow-y: hidden; 
+position: static; 
+text-align: left; 
+white-space: nowrap; 
+width: 100%; height:100px !important; 
+text-align: center; 
+list-style-position: inside;
+} 
+#o-multi-product .carousel-indicators li{
+background-color: transparent !important; 
+border-radius: 0; display: inline-block; 
+margin: 0 !important; 
+width: 54px !important; 
+height: 54px !important; 
+border: 0 !important;
+box-shadow: none !important;
+} 
+#o-multi-product .carousel-indicators li img{
+display: block; 
+opacity: 0.5;
+border: 1px solid #ddd;
+border-radius: 4px;
+padding: 5px;
+/*width: 150px;*/
+}
+
+#o-multi-product .carousel-indicators li img:hover{
+box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#o-multi-product .carousel-indicators li.active img{
+opacity: 1;
+/*border: 1px solid #ddd;
+border-radius: 4px;
+padding: 5px;
+width: 150px;*/
+}
+
+.modal-dialog{
+	top:5%;
+	max-width: 70%;
+}
+.prev {
+	position: absolute;
+    top: 45%;
+}
+.next
+{
+	position: absolute;
+    top: 45%;
+    right: 0;
+}
+
+.modal-body .w3-content img
+{
+	max-height: 450px;
+    display: block;
+    margin: 0px auto;
+    width: auto;
+}
+
+.modal-body .nav-img
+{    
+    width: 100%;
+    cursor: pointer;
+}
+.modal-body .nav-image
+{
+	float: left;
+	border: 1px solid;
+	width: 100px;
+	overflow: hidden;
+	margin: 10px;
+	height: 100px;
+} 
+.modal-header{
+	border: none;
+	height:28px;
+	position: absolute;
+    right: 0;
+    z-index: 9999;
+}
+
+.close{
+	right: 10px;
+    position: absolute;
+}
